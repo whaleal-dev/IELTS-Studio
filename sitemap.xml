@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://docs.whaleal.com/IELTS-Studio/words/</loc></url>
-  <url><loc>https://docs.whaleal.com/IELTS-Studio/listening-word/</loc></url>
-  <url><loc>https://docs.whaleal.com/IELTS-Studio/synonyms/</loc></url>
-  <url><loc>https://docs.whaleal.com/IELTS-Studio/word-player/</loc></url>
-  <url><loc>https://docs.whaleal.com/IELTS-Studio/downloads/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=listening</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=synonyms</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=word-player</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=downloads</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=help</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=help&amp;topic=words-import</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=help&amp;topic=player-wordlist</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/?page=help&amp;topic=backup</loc></url>
 </urlset>

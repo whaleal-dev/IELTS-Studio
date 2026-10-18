@@ -1,1 +1,0 @@
-import{r as e}from"./sitePath-DGEkK3IU.js";import{r as t}from"./model-DrJgmVig.js";var{default:n}=await e(async()=>{let{default:e}=await import(`./listening-chapters-COKLCUES.js`);return{default:e}},[]),r=Object.assign({},...Object.keys(n).sort().map(e=>n[e])),i=t(r);export{i as t};
