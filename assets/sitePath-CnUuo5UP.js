@@ -1,1 +1,0 @@
-var e=`/IELTS-Studio/`,t=t=>e+t.replace(/^\//,``);export{t as n,e as t};
