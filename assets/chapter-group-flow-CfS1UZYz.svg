@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1172" role="img" aria-labelledby="title description">
+  <title id="title">词库与章节分组定位</title>
+  <desc id="description">学习页选择词库、章节和分组，只定位并暂停；范围不同再点学习所选分组进入学习。我的词库点击查看章节，展开章节浏览进度，点分组即进入学习。内置公开章组页中，章页看目录，组页看词表，不含个人词库；点击前往学习只定位，按提示选择或加载分组，再显式开始。浏览和 URL 前进后退保留当前任务、答案和草稿，不自动播放。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker></defs>
+  <rect width="360" height="1172" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle" fill="#20324f">
+    <text x="180" y="38" font-size="22" font-weight="700">词库与章节分组定位</text>
+    <rect x="20" y="64" width="150" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="95" y="98" font-size="18" font-weight="600">开始学习页</text>
+    <text x="95" y="126" font-size="18">选择学习词库</text>
+    <rect x="190" y="64" width="150" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="265" y="98" font-size="18" font-weight="600">我的词库页</text>
+    <text x="265" y="126" font-size="18">点击查看章节</text>
+    <path d="M95 144V174" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M265 144V174" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="182" width="150" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="95" y="216" font-size="18" font-weight="600">选择章节</text>
+    <text x="95" y="244" font-size="18">再选择分组</text>
+    <rect x="190" y="182" width="150" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="265" y="216" font-size="18" font-weight="600">展开章节</text>
+    <text x="265" y="244" font-size="18">浏览分组与进度</text>
+    <path d="M95 262V292" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M265 262V292" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="300" width="150" height="80" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="95" y="334" font-size="18" font-weight="600">仅定位并暂停</text>
+    <text x="95" y="362" font-size="18">保留当前任务</text>
+    <rect x="190" y="300" width="150" height="80" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="265" y="334" font-size="18" font-weight="600">仅浏览</text>
+    <text x="265" y="362" font-size="18">不改变学习任务</text>
+    <path d="M95 380V410" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M265 380V410" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="418" width="150" height="108" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="95" y="452" font-size="18" font-weight="600">范围不同时</text>
+    <text x="95" y="480" font-size="18">点击学习所选</text>
+    <text x="95" y="508" font-size="18">分组按钮</text>
+    <rect x="190" y="418" width="150" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="265" y="452" font-size="18" font-weight="600">点击分组</text>
+    <text x="265" y="480" font-size="18">即进入学习</text>
+    <path d="M95 526V550H180V576" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M265 498V550H180" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="584" width="320" height="80" rx="12" fill="#eaf7ef" stroke="#9bc8ab"/>
+    <text x="180" y="618" font-size="18" font-weight="600">进入所选分组学习</text>
+    <text x="180" y="646" font-size="18">核对练习卡片的名称与位置</text>
+    <rect x="20" y="682" width="320" height="80" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="180" y="716" font-size="18" font-weight="600">URL／前进后退只定位</text>
+    <text x="180" y="744" font-size="18">保留任务与草稿，不自动播放</text>
+    <rect x="20" y="790" width="320" height="108" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="824" font-size="18" font-weight="600">内置公开章组页</text>
+    <text x="180" y="852" font-size="18">章页看目录，组页看词表</text>
+    <text x="180" y="880" font-size="18">仅展示内置资料，不含个人词库</text>
+    <path d="M180 898V920" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="928" width="320" height="108" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="180" y="962" font-size="18" font-weight="600">点击「前往学习」</text>
+    <text x="180" y="990" font-size="18">只定位到对应学习页</text>
+    <text x="180" y="1018" font-size="18">保留任务与答案，不自动播放</text>
+    <path d="M180 1036V1060" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="1068" width="320" height="80" rx="12" fill="#eaf7ef" stroke="#9bc8ab"/>
+    <text x="180" y="1102" font-size="18" font-weight="600">按提示选择或加载分组</text>
+    <text x="180" y="1130" font-size="18">再显式开始学习</text>
+  </g>
+</svg>

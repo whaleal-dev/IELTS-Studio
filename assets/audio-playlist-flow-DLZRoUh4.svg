@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1090" role="img" aria-labelledby="title description">
+  <title id="title">音频与词表混排流程</title>
+  <desc id="description">导入录音及 CSV／TXT 词表，单次及累计最多100份。检查失败整批拒绝并保留旧列表；通过后独立设置，或应用全局值按类型覆盖，之后仍可逐行修改。录音设置倍速，词表设置语音参数，循环次数覆盖两类文件，词表次数表示整表遍数。排序后播放，播放中排序保留当前文件、位置和遍次。暂停时录音保留时间断点，词表继续从当前词开头重读，均保留完成遍数；追加或移出先暂停。播放失败停止并重试，不静默跳过；刷新需重新导入，只有历史设置纳入备份。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker></defs>
+  <rect width="360" height="1090" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle" fill="#20324f">
+    <text x="180" y="38" font-size="22" font-weight="700">音频与词表混排流程</text>
+    <rect x="20" y="64" width="320" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="98" font-size="18" font-weight="600">导入录音及 CSV／TXT 词表</text>
+    <text x="180" y="126" font-size="18">单次及列表累计最多 100 份</text>
+    <path d="M180 144V170" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="178" width="320" height="52" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="212" font-size="18" font-weight="600">检查格式、容量与有效英文</text>
+    <path d="M180 230V250H95V274" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M180 250H265V274" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="282" width="150" height="108" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="95" y="316" font-size="18" font-weight="600">检查失败</text>
+    <text x="95" y="344" font-size="18">整批拒绝</text>
+    <text x="95" y="372" font-size="18">保留已有列表</text>
+    <rect x="190" y="282" width="150" height="80" rx="12" fill="#eaf7ef" stroke="#9bc8ab"/>
+    <text x="265" y="316" font-size="18" font-weight="600">检查通过</text>
+    <text x="265" y="344" font-size="18">文件各占一行</text>
+    <path d="M265 362V404H180V430" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="438" width="320" height="108" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="472" font-size="18" font-weight="600">逐行设置，或应用全局值</text>
+    <text x="180" y="500" font-size="18">录音调倍速，词表设语音</text>
+    <text x="180" y="528" font-size="18">次数覆盖两类，仍可逐行改</text>
+    <path d="M180 546V574" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="582" width="320" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="616" font-size="18" font-weight="600">排序后播放</text>
+    <text x="180" y="644" font-size="18">播放中排序保留位置与遍次</text>
+    <path d="M180 662V690" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="698" width="320" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="732" font-size="18" font-weight="600">暂停：保留已完成遍数</text>
+    <text x="180" y="760" font-size="18">追加或移出列表前先暂停</text>
+    <path d="M180 778V798H95V822" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M180 798H265V822" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="830" width="150" height="80" rx="12" fill="#eaf7ef" stroke="#9bc8ab"/>
+    <text x="95" y="864" font-size="18" font-weight="600">录音继续</text>
+    <text x="95" y="892" font-size="18">保留时间断点</text>
+    <rect x="190" y="830" width="150" height="108" rx="12" fill="#eaf7ef" stroke="#9bc8ab"/>
+    <text x="265" y="864" font-size="18" font-weight="600">词表继续</text>
+    <text x="265" y="892" font-size="18">从当前词开头</text>
+    <text x="265" y="920" font-size="18">重新朗读</text>
+    <rect x="20" y="958" width="320" height="108" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="180" y="992" font-size="18" font-weight="600">播放失败停止，重试不跳过</text>
+    <text x="180" y="1020" font-size="18">刷新需重新导入文件</text>
+    <text x="180" y="1048" font-size="18">仅历史设置纳入备份</text>
+  </g>
+</svg>

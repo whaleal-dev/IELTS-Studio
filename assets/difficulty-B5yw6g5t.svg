@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 392" role="img" aria-labelledby="title description">
+  <title id="title">单词难度与自评掌握示意</title>
+  <desc id="description">难度八的单词答错后增加三，最高为十。自评掌握与难度独立，答对也不会自动降低难度。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker></defs>
+  <rect width="320" height="392" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="160" y="35" font-size="20" font-weight="700" fill="#20324f">答错如何影响难度</text>
+    <rect x="24" y="54" width="272" height="62" rx="13" fill="#fff" stroke="#d8e3f2"/>
+    <text x="160" y="93" font-size="24" font-weight="700" fill="#244d94">当前难度 8</text>
+    <path d="M160 123V155" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="24" y="169" width="272" height="62" rx="13" fill="#fff" stroke="#d8e3f2"/>
+    <text x="160" y="208" font-size="22" font-weight="700" fill="#244d94">答错：难度＋3</text>
+    <path d="M160 238V270" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="24" y="284" width="272" height="62" rx="13" fill="#e8f0ff" stroke="#a8c4f1"/>
+    <text x="160" y="323" font-size="24" font-weight="700" fill="#244d94">变为 10，达到上限</text>
+    <text x="160" y="375" font-size="18" fill="#52617a">自评掌握独立；答对不自动降难度</text>
+  </g>
+</svg>
