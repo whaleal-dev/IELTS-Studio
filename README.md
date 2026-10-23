@@ -12,7 +12,7 @@ IELTS Studio 是一个面向雅思学习者的中文学习网站，提供词汇�
 | --- | --- | --- |
 | 单词 | 按章节和分组学习内置主题词汇或个人词库，使用单词卡片、中文选择题和听写，记录笔记并查看统计 | [进入单词](https://docs.whaleal.com/IELTS-Studio/) |
 | 听力 | 使用原声语料进行听音和听写，复练错词，查看完整分组练习成绩 | [进入听力](https://docs.whaleal.com/IELTS-Studio/listening/) |
-| 同义词 | 按组学习同义替换，导入 TXT／CSV 词库，搜索、循环播放并记录笔记 | [进入同义词](https://docs.whaleal.com/IELTS-Studio/synonyms/) |
+| 同义词 | 按组学习同义替换，导入 TXT／CSV 词库，搜索、循环播放与维护已有笔记 | [进入同义词](https://docs.whaleal.com/IELTS-Studio/synonyms/) |
 | 单词播放 | 粘贴自己的英文词表，设置发音、顺序、重复次数及间隔，进行播放或逐词听写 | [进入单词播放](https://docs.whaleal.com/IELTS-Studio/word-player/) |
 | 音频播放 | 混排最多 100 份录音与 CSV／TXT，词表可选发音人及两种语速，1000 份历史、全局应用与拖拽 | [进入音频播放](https://docs.whaleal.com/IELTS-Studio/audio-player/) |
 | 资源下载 | 搜索学习材料，预览 TXT／JSON／CSV／PDF，下载单份文件或批量打包为 ZIP | [进入资源下载](https://docs.whaleal.com/IELTS-Studio/downloads/) |
@@ -25,7 +25,7 @@ IELTS Studio 是一个面向雅思学习者的中文学习网站，提供词汇�
 
 1. 打开网站，选择单词或听力的章节、分组，进入学习；也可直接使用同义词或粘贴词表播放。
 2. 如需个人词库，准备 CSV 或 TXT 文件。单词词库依次填写「单词、释义、音标、单词章节、单词分组」，使用英文逗号分隔；CSV 需要表头，TXT 不需要。页面提供可下载模板。
-3. 功能旁的问号会进入对应操作说明；首次使用可阅读 [个人词库导入](https://docs.whaleal.com/IELTS-Studio/help/words-import/) 和 [词表播放与听写](https://docs.whaleal.com/IELTS-Studio/help/player-wordlist/) 教程。
+3. 功能旁的问号会在新标签页打开对应操作说明；首次使用可阅读 [个人词库导入](https://docs.whaleal.com/IELTS-Studio/help/words-import/) 和 [词表播放与听写](https://docs.whaleal.com/IELTS-Studio/help/player-wordlist/) 教程。
 4. 在「设置」→「备份」定期导出完整学习记录，并在浏览器下载列表确认文件已保存。恢复前可预览备份内容，操作见 [完整备份与恢复教程](https://docs.whaleal.com/IELTS-Studio/help/backup/) 。
 
 ## 学习资料保存在什么地方
@@ -42,14 +42,14 @@ IELTS Studio 是一个面向雅思学习者的中文学习网站，提供词汇�
 
 本仓库用于公开项目说明和部署静态产物。`main` 分支保存本文、[版本记录](CHANGELOG.md) 与 [本次发布信息](release.json) ；实际网站由独立的 `gh-pages-YYYYMMDD-HHmmss` 分支发布，分支时间使用北京时间，历史发布分支保留。
 
-- 发布版本：`gh-pages-20261022-161742`。
-- 公网核验时间：2026年10月22日星期四 16:20:33（北京时间）。
-- 产物提交：`218e17d87c6bcd4cd63bce738989476febf008dc`。
-- 开发源码基线：`491d84f85506ec65a6392e6611fdfb69c6fb49c9`。
-- 完整静态产物：13085 个文件，555532934 B。
-- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261022-161742.tar.gz`，510481487 B。
-- 压缩包 SHA-256：`113d30f32639b0973ed2a030e9a8da36ae8041165111ce9d43ffe78cfa971fae`。
-- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/39746805285) 。
+- 发布版本：`gh-pages-20261023-132827`。
+- 公网核验时间：2026年10月23日星期五 13:32:26（北京时间）。
+- 产物提交：`d613e63773d54ad7f8a8de262e6cfbcb05d794b3`。
+- 开发源码基线：`87caa754b68418ab0db872f2338369d7432ea801`。
+- 完整静态产物：13440 个文件，564785832 B。
+- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261023-132827.tar.gz`，512656533 B。
+- 压缩包 SHA-256：`403a214db4bbe6277c71e2e4a164f894f136a6a9123c1d43acc99673ff2f22bc`。
+- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/39906101503) 。
 
 每次发布在维护者本地生成完整静态压缩包与 SHA-256 校验文件；网站部署并完成公网文件校验后，发布流程同步更新 `main` 的说明和发版信息。可在 `release.json` 核对本次分支、产物提交、构建和压缩包信息，详细变化见 `CHANGELOG.md`。压缩包是网站部署产物，不包含个人学习资料，也不等同于学习记录备份；本流程不创建 GitHub Release 或公开压缩包下载链接。
 
