@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 460" role="img" aria-labelledby="title description">
+  <title id="title">发送词表听写操作流程</title>
+  <desc id="description">在来源功能点击生成听写词表，预览词表，前往单词播放确认替换，保存成功后进入听写但不自动播放。确认前取消会保留旧词表。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker></defs>
+  <rect width="320" height="460" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="160" y="35" font-size="20" font-weight="700" fill="#20324f">把词表送到单词播放</text>
+    <rect x="24" y="54" width="272" height="60" rx="13" fill="#fff" stroke="#d8e3f2"/>
+    <text x="160" y="91" font-size="21" font-weight="700" fill="#244d94">点击「生成听写词表」</text>
+    <path d="M160 120V144" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="24" y="157" width="272" height="60" rx="13" fill="#fff" stroke="#d8e3f2"/>
+    <text x="160" y="194" font-size="21" font-weight="700" fill="#244d94">预览来源与词条</text>
+    <path d="M160 223V247" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="24" y="260" width="272" height="60" rx="13" fill="#fff" stroke="#d8e3f2"/>
+    <text x="160" y="297" font-size="21" font-weight="700" fill="#244d94">到单词播放，确认替换</text>
+    <path d="M160 326V350" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="24" y="363" width="272" height="60" rx="13" fill="#e8f0ff" stroke="#a8c4f1"/>
+    <text x="160" y="388" font-size="20" font-weight="700" fill="#244d94">保存成功后进入听写</text>
+    <text x="160" y="412" font-size="18" fill="#52617a">等待你开始播放</text>
+    <text x="160" y="445" font-size="18" fill="#52617a">确认前取消：保留旧词表</text>
+  </g>
+</svg>

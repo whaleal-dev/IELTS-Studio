@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1338" role="img" aria-labelledby="title description">
+  <title id="title">完整备份恢复与中断处理流程</title>
+  <desc id="description">先下载当前完整备份并确认文件保存，选择 JSON 备份后校验预览；失败保留原资料。确认全量替换学习资料及公共设置，零条也覆盖，输入恢复备份并确认。暂存核验后切换资料，收尾核验清理并重新加载，最后核对结果。切换前中断可用同一备份继续或取消，旧资料改变须取消后重选；取消本次恢复前若仍有导入预览，先点取消导入关闭预览。切换后只能完成恢复并重试，不能取消或一键撤回。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker>
+  </defs>
+  <rect width="360" height="1338" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" text-anchor="middle" fill="#20324f">
+    <text x="180" y="38" font-size="22" font-weight="700">完整备份恢复流程</text>
+    <rect x="20" y="62" width="320" height="86" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="92" font-weight="700">先下载当前完整备份</text>
+    <text x="180" y="119">确认文件已经保存到设备</text>
+    <path d="M180 154V174" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="184" width="320" height="62" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="222">选择 JSON 备份文件</text>
+    <path d="M180 252V272" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="282" width="320" height="86" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="313">校验通过后，预览内容与数量</text>
+    <text x="180" y="340">校验失败保留原资料，重选</text>
+    <path d="M180 374V394" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="404" width="320" height="86" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="180" y="433" font-weight="700" fill="#705636">确认全量替换学习资料</text>
+    <text x="180" y="458">及公共设置，零条也会覆盖</text>
+    <path d="M180 496V516" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="526" width="320" height="62" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="564">输入「恢复备份」并确认</text>
+    <path d="M180 594V614" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="624" width="320" height="62" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="662">暂存并核验备份内容</text>
+    <path d="M180 692V712" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="722" width="320" height="62" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="760">切换到备份资料</text>
+    <path d="M180 790V810" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="820" width="320" height="108" rx="12" fill="#edf7ee" stroke="#bfd8c3"/>
+    <text x="180" y="852" font-weight="700" fill="#315c3f">收尾核验并清理旧资料</text>
+    <text x="180" y="881">重新加载各页面</text>
+    <text x="180" y="908">最后核对恢复结果</text>
+    <text x="180" y="966" font-weight="700">中断后按切换阶段处理</text>
+    <path d="M180 978V988H95V1002" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M180 988H265V1002" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="1012" width="150" height="176" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="95" y="1044" font-weight="700" fill="#705636">切换前中断</text>
+    <text x="95" y="1074">同一备份继续</text>
+    <text x="95" y="1100">或取消恢复</text>
+    <text x="95" y="1126">旧资料若改变</text>
+    <text x="95" y="1152">须取消后重选</text>
+    <rect x="190" y="1012" width="150" height="176" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="265" y="1044" font-weight="700" fill="#705636">切换后中断</text>
+    <text x="265" y="1074">点「完成恢复」</text>
+    <text x="265" y="1100">重试直到完成</text>
+    <text x="265" y="1126">此时不能取消</text>
+    <text x="265" y="1152">不能一键撤回</text>
+    <rect x="20" y="1212" width="320" height="102" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="180" y="1244" font-weight="700" fill="#705636">取消本次恢复前</text>
+    <text x="180" y="1273">若仍有预览，先点「取消导入」</text>
+    <text x="180" y="1300">再按提示取消恢复</text>
+  </g>
+</svg>

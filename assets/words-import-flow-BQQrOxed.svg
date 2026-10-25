@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 876" role="img" aria-labelledby="title description">
+  <title id="title">个人词库导入流程</title>
+  <desc id="description">按模板填写五列，可增加 tags。CSV 和 Excel 带表头，TXT 无表头；CSV、TXT 使用 UTF-8。选择文件后自动校验并预览，Excel 只读第一个工作表。文件与 Excel 转换文本均不超过 2 MiB，去重后最多 5000 词。校验失败整份拒绝，修正后重选，旧词库保留；通过后核对词库名称、词条及工作表，此时尚未保存。保存为新词库，同名加序号不覆盖；失败保留候选与名称，重试保存。成功显示已导入，再主动开始学习。关闭未保存预览不创建词库。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker></defs>
+  <rect width="360" height="876" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle" fill="#20324f">
+    <text x="180" y="38" font-size="22" font-weight="700">个人词库导入流程</text>
+    <rect x="20" y="64" width="320" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="98" font-size="18" font-weight="600">选择 CSV／TXT 或 Excel</text>
+    <text x="180" y="126" font-size="18">按模板填写五列，可加 tags</text>
+    <path d="M180 144V170" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="178" width="320" height="52" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="212" font-size="18" font-weight="600">自动校验并预览，尚未保存</text>
+    <path d="M180 230V250H95V274" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M180 250H265V274" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="282" width="150" height="136" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="95" y="316" font-size="18" font-weight="600">校验失败</text>
+    <text x="95" y="344" font-size="18">整份拒绝</text>
+    <text x="95" y="372" font-size="18">按提示修正</text>
+    <text x="95" y="400" font-size="18">重新选择</text>
+    <rect x="190" y="282" width="150" height="108" rx="12" fill="#eaf7ef" stroke="#9bc8ab"/>
+    <text x="265" y="316" font-size="18" font-weight="600">校验通过</text>
+    <text x="265" y="344" font-size="18">核对预览与名称</text>
+    <text x="265" y="372" font-size="18">尚未保存</text>
+    <path d="M265 390V426H180V450" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="458" width="320" height="80" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="492" font-size="18" font-weight="600">保存为新词库</text>
+    <text x="180" y="520" font-size="18">同名加序号，不覆盖旧库</text>
+    <path d="M180 538V558H95V582" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M180 558H265V582" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="590" width="150" height="108" rx="12" fill="#fff5e6" stroke="#e3c18c"/>
+    <text x="95" y="624" font-size="18" font-weight="600">保存失败</text>
+    <text x="95" y="652" font-size="18">保留候选与名称</text>
+    <text x="95" y="680" font-size="18">点击重试保存</text>
+    <rect x="190" y="590" width="150" height="108" rx="12" fill="#eaf7ef" stroke="#9bc8ab"/>
+    <text x="265" y="624" font-size="18" font-weight="600">保存成功</text>
+    <text x="265" y="652" font-size="18">看到已导入提示</text>
+    <text x="265" y="680" font-size="18">再主动开始学习</text>
+    <path d="M20 644H10V498H16" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="736" width="320" height="108" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="770" font-size="18" font-weight="600">解析、保存均不计学习</text>
+    <text x="180" y="798" font-size="18">单文件 2 MiB，最多 5000 词</text>
+    <text x="180" y="826" font-size="18">关闭未保存预览不创建词库</text>
+  </g>
+</svg>

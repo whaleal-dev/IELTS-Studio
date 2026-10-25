@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1456" role="img" aria-labelledby="title description">
+  <title id="title">听力练习与分组计分流程</title>
+  <desc id="description">直接选择章节与原分组，先处理待保存答案，再设置听音或听写后开始播放。听音按间隔与循环设置继续，零秒间隔需手动继续；听写播放中可提交，音频结束才起限时。答对自动继续，普通答错或显示答案后，音频结束且限时大于零秒时自动继续，零秒手动继续，也可手动提前继续；超时记错停留，手动继续或完成本轮。完整原分组听写全部完成且无跳过才计分，不要求全对。听音、自定义、子集或错词复练不计分；音频失败先重播，跳过不记实际答错，但失去分组计分资格。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker>
+  </defs>
+  <rect width="360" height="1456" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" text-anchor="middle" fill="#20324f">
+    <text x="180" y="38" font-size="22" font-weight="700">听力练习与分组计分</text>
+    <rect x="20" y="62" width="320" height="76" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="93">选择章节与原分组</text>
+    <text x="180" y="119">切组前先处理待保存答案</text>
+    <path d="M180 144V168" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="178" width="320" height="76" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="209">选择听音或听写模式</text>
+    <text x="180" y="235">设置参数后开始练习</text>
+    <path d="M180 260V284" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="294" width="320" height="62" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="332">开始播放原声音频</text>
+    <path d="M180 362V380H95V402" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M180 380H265V402" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="412" width="150" height="138" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="95" y="444" font-weight="700">听音</text>
+    <text x="95" y="473">按间隔与循环</text>
+    <text x="95" y="500">设置继续播放</text>
+    <text x="95" y="527">0 秒手动继续</text>
+    <rect x="190" y="412" width="150" height="138" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="265" y="444" font-weight="700">听写</text>
+    <text x="265" y="473">播放中可提交</text>
+    <text x="265" y="500">音频结束后</text>
+    <text x="265" y="527">才开始限时</text>
+    <path d="M265 556V578H95V600" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M265 578V600" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="610" width="150" height="138" rx="12" fill="#edf7ee" stroke="#bfd8c3"/>
+    <text x="95" y="642" font-weight="700" fill="#315c3f">答对</text>
+    <text x="95" y="674">自动下一题</text>
+    <text x="95" y="704">0 秒也自动</text>
+    <rect x="190" y="610" width="150" height="166" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="265" y="642" font-weight="700" fill="#705636">答错／显示答案</text>
+    <text x="265" y="669">音频结束后</text>
+    <text x="265" y="697">限时大于 0 秒：</text>
+    <text x="265" y="724">自动继续</text>
+    <text x="265" y="751">0 秒：手动继续</text>
+    <path d="M95 754V804H265V782" fill="none" stroke="#3b74d7" stroke-width="2"/>
+    <path d="M180 804V826" fill="none" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="20" y="836" width="320" height="62" rx="12" fill="#fff" stroke="#d8e3f2"/>
+    <text x="180" y="874">末项后完成听写本轮</text>
+    <rect x="20" y="926" width="320" height="108" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="180" y="958" font-weight="700" fill="#705636">提醒：超时记错并停留</text>
+    <text x="180" y="987">手动点击「下一个」</text>
+    <text x="180" y="1014">末项点击「完成本轮」</text>
+    <rect x="20" y="1058" width="320" height="108" rx="12" fill="#edf7ee" stroke="#bfd8c3"/>
+    <text x="180" y="1090" font-weight="700" fill="#315c3f">可计入原分组成绩的条件</text>
+    <text x="180" y="1119">完整原分组听写全部完成</text>
+    <text x="180" y="1146">没有跳过，不要求全部答对</text>
+    <rect x="20" y="1190" width="320" height="82" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="180" y="1222" font-weight="700" fill="#705636">听音、自定义或只练部分</text>
+    <text x="180" y="1251">以及错词复练，不计分组成绩</text>
+    <rect x="20" y="1296" width="320" height="136" rx="12" fill="#fff5e8" stroke="#e8cd9f"/>
+    <text x="180" y="1328" font-weight="700" fill="#705636">音频失败：先尝试重播</text>
+    <text x="180" y="1357">仍失败时可「跳过这条音频」</text>
+    <text x="180" y="1384">跳过不记为实际答错</text>
+    <text x="180" y="1411">但本轮失去分组计分资格</text>
+  </g>
+</svg>

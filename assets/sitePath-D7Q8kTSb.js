@@ -1,0 +1,1 @@
+import{o as e,r as t}from"./pages-CieyVQW_.js";var n=`/IELTS-Studio/`;function r(r){let i=r.replace(/^\//,``);if(!i.startsWith(`?`))return n+i;let a=new URL(i,`https://site.invalid/`);if(!a.searchParams.has(`page`))return n+i;let o=e(a.searchParams);return a.searchParams.delete(`page`),t.includes(o)&&a.searchParams.delete(`topic`),n+o.path+a.search+a.hash}export{r as n,n as t};

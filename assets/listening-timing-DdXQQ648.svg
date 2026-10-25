@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 430" role="img" aria-labelledby="title description">
+  <title id="title">听写答题限时示意</title>
+  <desc id="description">先播放音频，音频结束后才开始五秒答题限时。答对自动进入下一题，超时记错并停留当前题。限时设为零表示不限时。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#3b74d7" stroke-width="2"/></marker></defs>
+  <rect width="320" height="430" rx="20" fill="#f3f7fc"/>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="160" y="35" font-size="20" font-weight="700" fill="#20324f">听写限时从何时开始</text>
+    <rect x="24" y="54" width="272" height="54" rx="13" fill="#fff" stroke="#d8e3f2"/>
+    <text x="160" y="88" font-size="22" font-weight="700" fill="#244d94">播放音频</text>
+    <path d="M160 114V141" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="24" y="154" width="272" height="54" rx="13" fill="#fff" stroke="#d8e3f2"/>
+    <text x="160" y="188" font-size="22" font-weight="700" fill="#244d94">音频结束</text>
+    <path d="M160 214V241" stroke="#3b74d7" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="24" y="254" width="272" height="54" rx="13" fill="#e8f0ff" stroke="#a8c4f1"/>
+    <text x="160" y="288" font-size="22" font-weight="700" fill="#244d94">开始答题限时：5 秒</text>
+    <text x="160" y="344" font-size="20" fill="#244d94">答对 → 自动下一题</text>
+    <text x="160" y="375" font-size="20" fill="#705636">超时 → 记错，停留当前题</text>
+    <text x="160" y="411" font-size="18" fill="#52617a">限时 0：不限时</text>
+  </g>
+</svg>

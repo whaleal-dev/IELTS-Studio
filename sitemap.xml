@@ -2,12 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://docs.whaleal.com/IELTS-Studio/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/listening/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/listening-cloze/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/synonyms/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/word-player/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/audio-player/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/downloads/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/about/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/author/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/changelog/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/words-start/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/words-difficulty/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/words-review/</loc></url>
@@ -17,6 +20,8 @@
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/listening-settings/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/listening-mistakes/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/listening-scores/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/help/listening-cloze/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/help/listening-cloze-audio/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/synonyms-import/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/player-wordlist/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/audio-player/</loc></url>
@@ -30,4 +35,5 @@
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/appearance/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/spaced-review/</loc></url>
   <url><loc>https://docs.whaleal.com/IELTS-Studio/help/study-materials/</loc></url>
+  <url><loc>https://docs.whaleal.com/IELTS-Studio/help/ai-workflow/</loc></url>
 </urlset>
