@@ -1,0 +1,1 @@
+import{A as e,H as t,T as n,h as r}from"./_plugin-vue_export-helper-CzD1kqW2.js";import{a as i}from"./navigation-Hw5UVbQd.js";function a(a,o,s=()=>{}){let c=n(i,null),l=r(()=>!c||c.route.value.module.id===a);return t(l,e=>{e||o()},{flush:`sync`}),c&&t(c.route,()=>{l.value&&s()},{flush:`post`}),e(o),l}export{a as t};
