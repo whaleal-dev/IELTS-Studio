@@ -4,16 +4,22 @@
 
 仓库没有 Git 版本标签，`package.json` 的 `0.1.0` 尚未区分历次交付，因此使用日期与提交标识，不补造版本号。正式身份见各发布条目及文末早期交付表；当前进度、候选产物与未验范围只在 ROADMAP.md（开发仓库材料：`ROADMAP.md`，需相应仓库访问权限） 维护。
 
+## gh-pages-20261027-083822
+
+- 发布版本：`gh-pages-20261027-083822`。
+- 公网核验时间：2026年10月27日星期二 08:41:14（北京时间）。
+- 产物提交：`b89264834d0ee5ff2abe3526911dfebc5a5377bd`。
+- 开发源码基线：`75bba26958c91eaff33d084c6ab8506090605773`，包含该基线之后尚未提交的工作区改动。
+- 完整静态产物：10302 个文件，455037935 B。
+- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261027-083822.tar.gz`，425412559 B。
+- 压缩包 SHA-256：`740a3de6f99d7cd0249ef068e0e1f5220307571e35294b29461623f32b342e9d`。
+- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/40427784748) 。
+
+本次未新增功能变更，发布身份见上。
+
 ## gh-pages-20261027-080103
 
-- 发布版本：`gh-pages-20261027-080103`。
-- 公网核验时间：2026年10月27日星期二 08:06:05（北京时间）。
-- 产物提交：`ec3f30791aea9d5d1060e08f3d657692ccf897a6`。
-- 开发源码基线：`e370cfe8774542f84ce6a42ef48dc9046d709f3d`，包含该基线之后尚未提交的工作区改动。
-- 完整静态产物：10302 个文件，455037565 B。
-- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261027-080103.tar.gz`，425412507 B。
-- 压缩包 SHA-256：`03bc91331cab3f685145c46caba521f2a6136380a178f5195cc8fe243acc8b90`。
-- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/40423889032) 。
+2026-10-27 已通过 GitHub Pages 正式发布，北京时间 08：06：05 完成公网内容核验，发布仓库 main 的 README、CHANGELOG 和 release.json 已同步。开发源码基线 `e370cfe8774542f84ce6a42ef48dc9046d709f3d`；构建 `build-3DLWsi`；产物提交 `ec3f30791aea9d5d1060e08f3d657692ccf897a6`。交付身份与验证边界见 ROADMAP.md（开发仓库材料：`ROADMAP.md`，需相应仓库访问权限） 。以下七项为该版本已上线的变更。
 
 - 修正云备份的公开说明与数据处理边界，发布文档明确区分公开入口和仅开发仓库可见材料。
 - 补充品牌图标、公开分享图及 Open Graph／Twitter 元信息，禁用 JavaScript 时保留正文与交互说明。
