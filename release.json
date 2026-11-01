@@ -7,7 +7,9 @@
   "commit": "d743311183ca36f4bc09cb0cf059a908c9a438ad",
   "source": {
     "head": "a75f49940f3dcfd672a4ac63208f92aace9e8eaf",
-    "dirty": true
+    "dirty": true,
+    "buildInputsMatchHead": true,
+    "dirtyScope": "未纳入网站构建的测试台账与本地宣传素材"
   },
   "siteUrl": "https://docs.whaleal.com/IELTS-Studio/",
   "deploymentUrl": "https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41292093383",
