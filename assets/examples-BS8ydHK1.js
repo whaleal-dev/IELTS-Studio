@@ -1,0 +1,1 @@
+import{r as e,t}from"./examples-C0pfZBUT.js";export{t as createSynonymExampleDownload,e as synonymImportTemplates};
