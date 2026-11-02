@@ -1,26 +1,24 @@
 {
-  "version": "gh-pages-20261101-170334",
+  "version": "gh-pages-20261102-091241",
   "status": "http-verified",
-  "preparedAt": "2026-11-01T09:04:35.504Z",
-  "verifiedAt": "2026-11-01T09:14:33.708Z",
-  "branch": "gh-pages-20261101-170334",
-  "commit": "d743311183ca36f4bc09cb0cf059a908c9a438ad",
+  "preparedAt": "2026-11-02T01:13:27.270Z",
+  "verifiedAt": "2026-11-02T01:15:40.036Z",
+  "branch": "gh-pages-20261102-091241",
+  "commit": "c82eb939bf0cbaa44b866c8d36b5e8e11a169cf0",
   "source": {
-    "head": "a75f49940f3dcfd672a4ac63208f92aace9e8eaf",
-    "dirty": true,
-    "buildInputsMatchHead": true,
-    "dirtyScope": "未纳入网站构建的测试台账与本地宣传素材"
+    "head": "470c81f7cb6a002ff365d0b8e89fa6c9797f6307",
+    "dirty": true
   },
   "siteUrl": "https://docs.whaleal.com/IELTS-Studio/",
-  "deploymentUrl": "https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41292093383",
+  "deploymentUrl": "https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41371368120",
   "build": {
-    "directory": "build-K92Ma6",
+    "directory": "build-jUbMFi",
     "files": 10338,
-    "bytes": 455962214
+    "bytes": 455962704
   },
   "archive": {
-    "path": "dist/packages/ielts-studio-gh-pages-20261101-170334.tar.gz",
-    "bytes": 425870832,
-    "sha256": "a4a84d152a7074be0cfa19b66ad91e6b320f7200b93b8a6e0853394da8c4ea23"
+    "path": "dist/packages/ielts-studio-gh-pages-20261102-091241.tar.gz",
+    "bytes": 425877874,
+    "sha256": "2a93dd1c356424892bb47656d982f823e2b82c07c7499f4418347512a2677ef0"
   }
 }
