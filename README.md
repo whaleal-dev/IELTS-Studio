@@ -50,14 +50,14 @@ IELTS Studio 是一个面向雅思学习者的中文学习网站，提供词汇�
 
 本仓库用于公开项目说明和部署静态产物。`main` 分支保存本文、[版本记录](CHANGELOG.md) 与 [本次发布信息](release.json) ；实际网站由独立的 `gh-pages-YYYYMMDD-HHmmss` 分支发布，分支时间使用北京时间，历史发布分支保留。
 
-- 发布版本：`gh-pages-20261102-091241`。
-- 公网核验时间：2026年11月2日星期一 09:15:40（北京时间）。
-- 产物提交：`c82eb939bf0cbaa44b866c8d36b5e8e11a169cf0`。
+- 发布版本：`gh-pages-20261102-100319`。
+- 公网核验时间：2026年11月2日星期一 10:07:53（北京时间）。
+- 产物提交：`448235906caf425d471d91570d8a6b05701d8717`。
 - 开发源码基线：`470c81f7cb6a002ff365d0b8e89fa6c9797f6307`，发布时工作区存在尚未提交的改动。
 - 完整静态产物：10338 个文件，455962704 B。
-- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261102-091241.tar.gz`，425877874 B。
-- 压缩包 SHA-256：`2a93dd1c356424892bb47656d982f823e2b82c07c7499f4418347512a2677ef0`。
-- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41371368120) 。
+- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261102-100319.tar.gz`，425877874 B。
+- 压缩包 SHA-256：`27d72921ff6abc506461158d66c7e49f8e2524fb61427e471badeead4650ef08`。
+- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41375731940) 。
 
 每次发布在维护者本地生成完整静态压缩包与 SHA-256 校验文件；网站部署并完成公网文件校验后，发布流程同步更新 `main` 的说明和发版信息。可在 `release.json` 核对本次分支、产物提交、构建和压缩包信息，详细变化见 `CHANGELOG.md`。压缩包是网站部署产物，不包含个人学习资料，也不等同于学习记录备份；本流程不创建 GitHub Release 或公开压缩包下载链接。
 
