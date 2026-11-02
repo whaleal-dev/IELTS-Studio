@@ -1,10 +1,16 @@
-import{C as e,F as t,L as n,S as r,et as i,f as a,g as o,it as s,n as c,t as l,v as u,y as d}from"./_plugin-vue_export-helper-DUL7R8LJ.js";import{n as f}from"./sitePath-BjuP9_k0.js";import{M as p,U as m}from"./wordFilterState-Cj1ZPjm9.js";import{t as h}from"./HeaderTools-Dwa6pfkG.js";var g=`# 版本记录
+import{C as e,F as t,L as n,S as r,et as i,f as a,g as o,it as s,n as c,t as l,v as u,y as d}from"./_plugin-vue_export-helper-DUL7R8LJ.js";import{n as f}from"./sitePath-BjuP9_k0.js";import{M as p,U as m}from"./wordFilterState-k9ozzNs6.js";import{t as h}from"./HeaderTools-BbhcYPXF.js";var g=`# 版本记录
 
 本文按公开发布身份和历史提交维护版本摘要，日期使用北京时间。同一版本内合并功能、修复与配套文档，不把开发过程中的中间状态当作该版本的最终行为；提交包含此前完成的工作，不表示所有功能在当天首次实现或上线。
 
 仓库没有 Git 版本标签，\`package.json\` 的 \`0.1.0\` 尚未区分历次交付，因此使用日期与提交标识，不补造版本号。正式身份见各发布条目及文末早期交付表；当前进度、候选产物与未验范围只在 [ROADMAP.md](ROADMAP.md) 维护。
 
 ## 未发布
+
+暂无未发布变更。
+
+## gh-pages-20261101-170334
+
+2026-11-01 已通过 GitHub Pages 正式发布，北京时间 17：14：33 完成公网内容核验。开发源码基线 \`a75f49940f3dcfd672a4ac63208f92aace9e8eaf\`；构建 \`build-K92Ma6\`；产物提交 \`d743311183ca36f4bc09cb0cf059a908c9a438ad\`；发布仓库 main 说明提交 \`a95b458a0c4edce8ffb26bb8f1fa0cab2214ef46\`。已授权本次新快照替换 90 个旧构建资产，历史发布分支保留；交付身份与验证边界见 [ROADMAP.md](ROADMAP.md) 。以下为该版本已上线的变更。
 
 ### 新增
 
