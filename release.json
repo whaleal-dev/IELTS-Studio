@@ -1,24 +1,24 @@
 {
-  "version": "gh-pages-20261102-100319",
+  "version": "gh-pages-20261105-085618",
   "status": "http-verified",
-  "preparedAt": "2026-11-02T02:04:06.911Z",
-  "verifiedAt": "2026-11-02T02:07:53.608Z",
-  "branch": "gh-pages-20261102-100319",
-  "commit": "448235906caf425d471d91570d8a6b05701d8717",
+  "preparedAt": "2026-11-05T00:56:58.596Z",
+  "verifiedAt": "2026-11-05T01:04:24.880Z",
+  "branch": "gh-pages-20261105-085618",
+  "commit": "bfa34c38618da6eae267f7ca20cad05d472ac415",
   "source": {
-    "head": "470c81f7cb6a002ff365d0b8e89fa6c9797f6307",
+    "head": "cce71b7b06ea51f737b5ce5205805268cfdb0755",
     "dirty": true
   },
   "siteUrl": "https://docs.whaleal.com/IELTS-Studio/",
-  "deploymentUrl": "https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41375731940",
+  "deploymentUrl": "https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41945609808",
   "build": {
-    "directory": "build-jUbMFi",
-    "files": 10338,
-    "bytes": 455962704
+    "directory": "build-pEBMhq",
+    "files": 9789,
+    "bytes": 421377063
   },
   "archive": {
-    "path": "dist/packages/ielts-studio-gh-pages-20261102-100319.tar.gz",
-    "bytes": 425877874,
-    "sha256": "27d72921ff6abc506461158d66c7e49f8e2524fb61427e471badeead4650ef08"
+    "path": "dist/packages/ielts-studio-gh-pages-20261105-085618.tar.gz",
+    "bytes": 388989620,
+    "sha256": "9593dacdbd0f450987fd4646e4f9171deaf1fada2641cd247e82545cf144adb5"
   }
 }

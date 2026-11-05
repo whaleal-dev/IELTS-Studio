@@ -13,9 +13,9 @@ IELTS Studio 是一个面向雅思学习者的中文学习网站，提供词汇�
 | 单词 | 按章节和分组学习内置主题词汇或个人词库，使用单词卡片、选择释义和听写，记录笔记并查看统计 | [进入单词](https://docs.whaleal.com/IELTS-Studio/) |
 | 听力 | 使用原声语料进行听音和听写，复练错词，查看完整分组练习成绩 | [进入听力](https://docs.whaleal.com/IELTS-Studio/listening/) |
 | 听力挖空 | 选择 176 篇材料听原声填空，查看本轮错题及逐轮篇目成绩，保存答卷并连接本地音频目录 | [进入听力挖空](https://docs.whaleal.com/IELTS-Studio/listening-cloze/) |
-| 同义词 | 按组学习同义替换，导入 TXT／CSV／Excel 词库，搜索与循环播放 | [进入同义词](https://docs.whaleal.com/IELTS-Studio/synonyms/) |
+| 同义词 | 按组学习同义替换，导入 TXT／Excel 词库，搜索与循环播放 | [进入同义词](https://docs.whaleal.com/IELTS-Studio/synonyms/) |
 | 单词播放 | 粘贴自己的英文词表，设置发音、顺序、重复次数及间隔，进行播放或逐词听写 | [进入单词播放](https://docs.whaleal.com/IELTS-Studio/word-player/) |
-| 音频播放 | 混排本地录音与 CSV／TXT／Excel 词表，按文件设置发音、速度和循环，支持全局应用、排序与参数历史 | [进入音频播放](https://docs.whaleal.com/IELTS-Studio/audio-player/) |
+| 音频播放 | 混排本地录音与 TXT／Excel 词表，按文件设置发音、速度和循环，支持全局应用、排序与参数历史 | [进入音频播放](https://docs.whaleal.com/IELTS-Studio/audio-player/) |
 | 资源下载 | 按目录浏览、搜索及查看资料星级和详情，预览常见文件，下载单份文件或批量打包为 ZIP | [进入资源下载](https://docs.whaleal.com/IELTS-Studio/downloads/) |
 | AI 学习（Beta） | 按目标复制提示词、查看模块模板和图文示例，配合站外 AI 核对资料后回站学习 | [进入 AI 学习](https://docs.whaleal.com/IELTS-Studio/ai-learning/) |
 
@@ -26,13 +26,13 @@ IELTS Studio 是一个面向雅思学习者的中文学习网站，提供词汇�
 ## 开始学习
 
 1. 打开网站，选择单词或听力的章节、分组，进入学习；也可直接使用同义词或粘贴词表播放。
-2. 如需个人词库，准备 CSV、TXT 或 Excel（`.xlsx`／`.xls`）文件。基本字段为「单词、释义、音标、单词章节、单词分组」，仅单词必填，支持可选标签；CSV 与 Excel 需要表头，Excel 只读取首个工作表，TXT 无表头并使用英文逗号保留空字段。导入问号提供格式示例和可下载模板。
+2. 如需个人词库，准备 TXT 或 Excel（`.xlsx`／`.xls`）文件。基本字段为「单词、释义、音标、单词章节、单词分组」，仅单词必填，支持可选标签；Excel 需要五字段表头，Excel 只读取首个工作表，TXT 无表头并使用英文逗号保留空字段。上传弹窗提供 TXT／Excel 模板下载，导入问号保留格式与解析示例。
 3. 功能旁的问号会在新标签页打开对应操作说明；首次使用可阅读 [个人词库导入](https://docs.whaleal.com/IELTS-Studio/help/words-import/) 和 [词表播放与听写](https://docs.whaleal.com/IELTS-Studio/help/player-wordlist/) 教程。
 4. 在「设置」→「本地备份」定期导出完整学习记录，并在浏览器下载列表确认文件已保存。恢复前可预览备份内容，操作见 [完整备份与恢复教程](https://docs.whaleal.com/IELTS-Studio/help/backup/) 。
 
 ## 学习资料保存在什么地方
 
-音频播放最多混排 100 份录音与 CSV／TXT／Excel 词表，词表提取英文单词和短语；三种词表均无表头，Excel 只读取首个工作表。两类合计记住最近 100 份参数历史，兼容读取旧 1000 份历史，按类型和文件元信息匹配并纳入完整备份。文件内容、顺序和进度仅临时保留，刷新需重新导入；文件不上传本站，浏览器语音可能联网。录音暂停保留时间，词表继续从当前词开头重读。
+音频播放最多混排 100 份录音与 TXT／Excel 词表，词表提取英文单词和短语；两种词表均无表头，Excel 只读取首个工作表。两类合计记住最近 100 份参数历史，兼容读取旧 1000 份历史，按类型和文件元信息匹配并纳入完整备份。文件内容、顺序和进度仅临时保留，刷新需重新导入；文件不上传本站，浏览器语音可能联网。录音暂停保留时间，词表继续从当前词开头重读。
 
 网站前端是静态应用，无需注册账号，默认把个人词库、笔记、错词、成绩与设置保存在当前网站来源的浏览器 IndexedDB 中。用户在「设置 → 云备份」主动启用云备份后，网站会向独立后端单向上传已保存资料；开启或上传失败不代表已有完整云端副本，请核对「最近完整上传」。没有自动云端恢复或多设备同步，不同设备、浏览器、域名或端口之间不会自动共享；清除网站数据会失去本地资料和云备份凭据。
 
@@ -50,14 +50,14 @@ IELTS Studio 是一个面向雅思学习者的中文学习网站，提供词汇�
 
 本仓库用于公开项目说明和部署静态产物。`main` 分支保存本文、[版本记录](CHANGELOG.md) 与 [本次发布信息](release.json) ；实际网站由独立的 `gh-pages-YYYYMMDD-HHmmss` 分支发布，分支时间使用北京时间，历史发布分支保留。
 
-- 发布版本：`gh-pages-20261102-100319`。
-- 公网核验时间：2026年11月2日星期一 10:07:53（北京时间）。
-- 产物提交：`448235906caf425d471d91570d8a6b05701d8717`。
-- 开发源码基线：`470c81f7cb6a002ff365d0b8e89fa6c9797f6307`，发布时工作区存在尚未提交的改动。
-- 完整静态产物：10338 个文件，455962704 B。
-- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261102-100319.tar.gz`，425877874 B。
-- 压缩包 SHA-256：`27d72921ff6abc506461158d66c7e49f8e2524fb61427e471badeead4650ef08`。
-- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41375731940) 。
+- 发布版本：`gh-pages-20261105-085618`。
+- 公网核验时间：2026年11月5日星期四 09:04:24（北京时间）。
+- 产物提交：`bfa34c38618da6eae267f7ca20cad05d472ac415`。
+- 开发源码基线：`cce71b7b06ea51f737b5ce5205805268cfdb0755`，发布时工作区存在尚未提交的改动。
+- 完整静态产物：9789 个文件，421377063 B。
+- 本地压缩包：`dist/packages/ielts-studio-gh-pages-20261105-085618.tar.gz`，388989620 B。
+- 压缩包 SHA-256：`9593dacdbd0f450987fd4646e4f9171deaf1fada2641cd247e82545cf144adb5`。
+- [对应 Pages 部署](https://github.com/whaleal-dev/IELTS-Studio/actions/runs/41945609808) 。
 
 每次发布在维护者本地生成完整静态压缩包与 SHA-256 校验文件；网站部署并完成公网文件校验后，发布流程同步更新 `main` 的说明和发版信息。可在 `release.json` 核对本次分支、产物提交、构建和压缩包信息，详细变化见 `CHANGELOG.md`。压缩包是网站部署产物，不包含个人学习资料，也不等同于学习记录备份；本流程不创建 GitHub Release 或公开压缩包下载链接。
 
