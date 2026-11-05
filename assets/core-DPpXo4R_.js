@@ -1,1 +1,0 @@
-var e=(e,t)=>e.replace(/\{(\w+)\}/g,(e,n)=>Object.hasOwn(t,n)?String(t[n]):e);function t(t,n={}){return typeof t==`string`?e(t,n):t}export{t};

@@ -1,0 +1,1 @@
+import{L as e,s as t,w as n,y as r}from"./runtime-core.esm-bundler-iCyNWvDV.js";import{u as i}from"./main-BGC-TPIR.js";function a(a,o,s=()=>{}){let c=r(i,null),l=t(()=>!c||c.route.value.module.id===a);return e(l,e=>{e||o()},{flush:`sync`}),c&&e(c.route,()=>{l.value&&s()},{flush:`post`}),n(o),l}export{a as t};
